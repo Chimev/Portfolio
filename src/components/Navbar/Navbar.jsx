@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className='app__navbar'>
         <div className='app__nabar-logo'>
             {/* <img src={images.logo} alt="Logo" /> */}
-            <h1>CHIME  </h1>
+            <h1>Creative Chime  </h1>
         </div>
         <ul className='app__navbar-links'>
             {['Home', 'About', 'Work', 'Skills', 'Contact'].map((item) => (
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <ul className='app__navbar-links'>
                     {['Home', 'About', 'Work', 'Skils', 'Contact'].map((item) => (
                         <li key={item}>
-                            <a href={`#${item}`}>{item} onClick={() => setToggle(false)} </a>
+                            <a href={`#${item}`} onClick={() => setToggle(false)}>{item}  </a>
                         </li>
                     ))}
                 </ul>

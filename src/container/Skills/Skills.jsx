@@ -12,7 +12,7 @@ const Skills = () => {
     {img :images.figma, name: 'Figma' },
   ]
   return (
-    <div id='Skills'>
+    <div id='Skills' className='pT'>
       <h2 className="head-text">Skills & Experiences</h2>
         <motion.div className="app__skills-list">
           {skills.map((skill) => (

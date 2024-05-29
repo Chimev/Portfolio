@@ -8,12 +8,17 @@ const Skills = () => {
     {img :images.css, name: 'CSS' },
     {img :images.javascript, name: 'JavaScript' },
     {img :images.react, name: 'React' },
+    {img :images.tailwind, name: 'Tailwind'},
+    {img :images.typescript, name: 'TypeScrit'},
+    {img :images.firebase, name: 'Firebase'},
+    {img :images.sass, name: 'Sass'},
     {img :images.git, name: 'Git' },
-    {img :images.figma, name: 'Figma' },
+    {img :images.figma, name: 'Figma' }
   ]
+
   return (
     <div id='Skills' className='pT'>
-      <h2 className="head-text">Skills & Experiences</h2>
+      <h2 className="head-text">Skills</h2>
         <motion.div className="app__skills-list">
           {skills.map((skill) => (
             <motion.div

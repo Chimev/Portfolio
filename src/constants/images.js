@@ -16,7 +16,8 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
-import vue from '../assets/vue.png';
+import firebase from '../assets/firebase.png';
+import tailwind from '../assets/tailwind.png';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -34,6 +35,9 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+
+import campuseEase from '../assets/campusEase.jpeg';
+import sdk from '../assets/sdk.jpeg';
 
 export default {
   email,
@@ -54,7 +58,6 @@ export default {
   redux,
   sass,
   typescript,
-  vue,
   about01,
   about02,
   about03,
@@ -69,4 +72,9 @@ export default {
   nb,
   skype,
   spotify,
+  firebase,
+  tailwind,
+  
+  campuseEase,
+  sdk
 };

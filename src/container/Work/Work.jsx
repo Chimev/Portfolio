@@ -24,7 +24,7 @@ const Work = () => {
       if (item === 'All') {
         setWorks(project);
       } else {
-        setWorks(project.filter(project => item !== project.tag  ))
+        setWorks(project.filter(project => item === project.tag  ))
       }
     }, 500);
   };

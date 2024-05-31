@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <div id='home' className='app__header app__flex'>
+    <div id='Home' className='app__header app__flex'>
       <motion.div
       whileInView={{x: [-100, 0], opacity: [0, 1]}}
       transition={{duration: 2}}

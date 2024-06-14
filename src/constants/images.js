@@ -38,6 +38,10 @@ import spotify from '../assets/spotify.png';
 
 import campuseEase from '../assets/campusEase.jpeg';
 import sdk from '../assets/sdk.jpeg';
+import nexpixel from '../assets/nexpixel.jpeg'
+import Obiex from '../assets/Obiex.jpeg'
+import Dado from '../assets/Dado.jpeg'
+import Chronicle from '../assets/Chronicle.jpeg'
 
 export default {
   email,
@@ -76,5 +80,9 @@ export default {
   tailwind,
   
   campuseEase,
-  sdk
+  sdk,
+  nexpixel,
+  Obiex,
+  Dado, 
+  Chronicle
 };

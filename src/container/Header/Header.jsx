@@ -38,7 +38,7 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp  cv">
-            <a className='p-text' href="Chime Victor  Resume.pdf"  >My Resume</a>
+            <a className='p-text' href="Victor Chime M.pdf"  >My Resume</a>
           </div>
           </div>
         </div>

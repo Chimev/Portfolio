@@ -42,6 +42,8 @@ import nexpixel from '../assets/nexpixel.jpeg'
 import Obiex from '../assets/Obiex.jpeg'
 import Dado from '../assets/Dado.jpeg'
 import Chronicle from '../assets/Chronicle.jpeg'
+import CDI from '../assets/CDI.png'
+
 
 export default {
   email,
@@ -84,5 +86,6 @@ export default {
   nexpixel,
   Obiex,
   Dado, 
-  Chronicle
+  Chronicle,
+  CDI
 };

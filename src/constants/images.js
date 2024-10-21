@@ -43,6 +43,8 @@ import Obiex from '../assets/Obiex.jpeg'
 import Dado from '../assets/Dado.jpeg'
 import Chronicle from '../assets/Chronicle.jpeg'
 import CDI from '../assets/CDI.png'
+import Nextjs from '../assets/Nextjs.png'
+import paatee from '../assets/paatee.png'
 
 
 export default {
@@ -80,6 +82,7 @@ export default {
   spotify,
   firebase,
   tailwind,
+  Nextjs,
   
   campuseEase,
   sdk,
@@ -87,5 +90,6 @@ export default {
   Obiex,
   Dado, 
   Chronicle,
-  CDI
+  CDI,
+  paatee
 };

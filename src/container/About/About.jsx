@@ -7,7 +7,7 @@ const About = () => {
 const abouts = [
   {title: 'Front-End Development', description: "I design and build engaging, responsive UIs that enhance user experience with React.", imgUrl: images.about02 },
   {title: 'Full Stack Development', description: "I develop scalable, high-performance web applications with Next.js.", imgUrl: images.about03 },
-  {title: 'Wordpress Deisgner', description: 'I can build website using Wordpress CMS', imgUrl: images.about01 },
+  {title: 'Wordpress Designer', description: 'I can build website using Wordpress CMS', imgUrl: images.about01 },
   
 ]
 

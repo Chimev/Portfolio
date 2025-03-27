@@ -45,9 +45,12 @@ import Chronicle from '../assets/Chronicle.jpeg'
 import CDI from '../assets/CDI.png'
 import Nextjs from '../assets/Nextjs.png'
 import paatee from '../assets/paatee.png'
+import tourmaline from '../assets/tourmaline.png'
+import morphy from '../assets/morphy.png'
 
 
 export default {
+ 
   email,
   mobile,
   api,
@@ -91,5 +94,7 @@ export default {
   Dado, 
   Chronicle,
   CDI,
-  paatee
+  paatee,
+  tourmaline,
+  morphy,
 };

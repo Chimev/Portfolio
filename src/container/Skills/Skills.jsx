@@ -15,6 +15,7 @@ const Skills = () => {
     {img :images.sass, name: 'Sass'},
     {img :images.git, name: 'Git' },
     {img :images.figma, name: 'Figma' },
+    {img :images.graphql, name: 'GraphQL' },
   ]
 
   return (

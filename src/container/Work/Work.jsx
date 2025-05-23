@@ -24,7 +24,7 @@ const Work = () => {
       if (item === 'All') {
         setWorks(project);
       } else {
-        setWorks(project.filter(project => item === project.tag  ))
+        setWorks(project.filter(project => project.tags.includes(item)))
       }
     }, 500);
   };
@@ -35,7 +35,7 @@ const Work = () => {
       {/* <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2> */}
       <h2 className="head-text">Real <span>World</span> Projects</h2>
       <div className="app__work-filter">
-        {['All', 'Website', 'Website App'].map((item, index) => (
+        {['All', 'Personal', 'Landing Page', 'Web App', 'Dashboard', 'Mobile Apps'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -90,9 +90,14 @@ const Work = () => {
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
+              <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10 }}>
+                <p style={{ fontWeight: '500' }}>Stack:</p>
+                <p className='p-text'>{work.stack.join(', ')}</p>
+              </div>
+              
 
               <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tag}</p>
+              <p className="p-text">{work.tags.join(', ')}</p>
               </div>
             </div>
           </div>

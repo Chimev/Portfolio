@@ -36,7 +36,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-import campuseEase from '../assets/campusEase.jpeg';
+import campuseEase from '../assets/campusEase.png';
 import sdk from '../assets/sdk.jpeg';
 import nexpixel from '../assets/nexpixel.jpeg'
 import Obiex from '../assets/Obiex.jpeg'
@@ -47,6 +47,8 @@ import Nextjs from '../assets/Nextjs.png'
 import paatee from '../assets/paatee.png'
 import tourmaline from '../assets/tourmaline.png'
 import morphy from '../assets/morphy.png'
+import ms_luxury from '../assets/ms_luxury.png'
+import productDashboard from '../assets/product.png'
 
 
 export default {
@@ -97,4 +99,6 @@ export default {
   paatee,
   tourmaline,
   morphy,
+  ms_luxury,
+  productDashboard,
 };

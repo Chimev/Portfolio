@@ -4,12 +4,23 @@ import { images } from '../../constants'
 import './About.scss'
 
 const About = () => {
-const abouts = [
-  {title: 'Front-End Development', description: "I design and build engaging, responsive UIs that enhance user experience with React.", imgUrl: images.about02 },
-  {title: 'Full Stack Development', description: "I develop scalable, high-performance web applications with Next.js.", imgUrl: images.about03 },
-  {title: 'Wordpress Designer', description: 'I can build website using Wordpress CMS', imgUrl: images.about01 },
-  
-]
+  const abouts = [
+    {
+      title: 'Front-End Development',
+      description: 'I design and build engaging, responsive UIs that enhance user experience with React.',
+      imgUrl: images.about02,
+    },
+    {
+      title: 'Full Stack Development',
+      description: 'I develop scalable, high-performance web applications with Next.js.',
+      imgUrl: images.about03,
+    },
+    {
+      title: 'Mobile Development',
+      description: 'I create cross-platform mobile apps using React Native and responsive web design techniques.',
+      imgUrl: images.about01,
+    },
+  ];  
 
   return (
     <div id='About' className='pT'>

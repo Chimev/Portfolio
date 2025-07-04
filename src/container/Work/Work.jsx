@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import './Work.scss';
-import { project } from './work';
+import { project } from './project';
 
 const Work = () => {
 
@@ -35,7 +35,7 @@ const Work = () => {
       {/* <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2> */}
       <h2 className="head-text">Real <span>World</span> Projects</h2>
       <div className="app__work-filter">
-        {['All', 'Personal', 'Landing Page', 'Web App', 'Dashboard', 'Mobile Apps'].map((item, index) => (
+        {['All', 'Personal', 'Website', 'Landing Page', 'Web App', 'Dashboard', 'Mobile Apps'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}

@@ -49,6 +49,7 @@ import tourmaline from '../assets/tourmaline.png'
 import morphy from '../assets/morphy.png'
 import ms_luxury from '../assets/ms_luxury.png'
 import productDashboard from '../assets/product.png'
+import solex from '../assets/solex.png'
 
 
 export default {
@@ -101,4 +102,5 @@ export default {
   morphy,
   ms_luxury,
   productDashboard,
+  solex,
 };

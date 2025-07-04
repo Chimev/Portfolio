@@ -6,8 +6,9 @@ export const project = [
   { id: 3, title: 'Product Dashboard', description: 'Product Dashboard', imgUrl: images.productDashboard, url: 'https://product-dashboard-plum.vercel.app/products', tags: ['Dashboard', 'Web App'], stack: ['Nextjs', 'Redux', 'Typescript','TailwindCss'] },
   { id: 4, title: 'Morphy', description: 'Fintech Dashboard', imgUrl: images.morphy, url: 'https://stunning-frangollo-f459ec.netlify.app/', tags: ['Dashboard', 'Web App'], stack: ['React', 'Typescript','TailwindCss'] },
   { id: 5, title: 'PAATEE', description: 'Web App that connects vendors to party planners.', imgUrl: images.paatee, url: 'https://paatee-web.vercel.app/', tags: ['Web App'], stack: ['Nextjs', 'Typescript', 'TailwindCss', 'GraphQL'] },
-  { id: 6, title: 'CDI', description: 'CDI Nation Website.', imgUrl: images.CDI, url: 'https://cdi-nation.vercel.app/', tags: ['Landing Page'], stack: ['React', 'Typescript', 'TailwindCss'] },
+  { id: 6, title: 'SolexKollektionz', description: 'Solexkollektionz creates custom-branded clothing to help businesses stand out with quality, style, and professionalism.', imgUrl: images.solex, url: 'https://solexkollektionz.com/', tags: ['Website', 'Landing Page'], stack: ['Nextjs', 'TailwindCss'] },
   { id: 7, title: 'Chronical Strategy Partners', description: 'Helping small businesses scale.', imgUrl: images.Chronicle, url: 'https://chroniclestrategy.com', tags: ['Landing Page'], stack: ['React', 'Typescript', 'TailwindCss'] },
   { id: 8, title: 'tourmaline-puppy', description: 'An ecommerce website for Women', imgUrl: images.tourmaline, url: 'https://tourmaline-puppy-e69a50.netlify.app/', tags: ['Web App'], stack: ['React', 'Typescript', 'TailwindCss'] },
   { id: 9, title: 'Nexpixel', description: 'Tech company website for online presence and digital capabilities.', imgUrl: images.nexpixel, url: 'https://nexpixel-frontend.vercel.app/', tags: ['Website', 'Landing Page'], stack: ['Nextjs', 'TailwindCss'] },
+  { id: 10, title: 'CDI', description: 'CDI Nation Website.', imgUrl: images.CDI, url: 'https://cdi-nation.vercel.app/', tags: ['Landing Page'], stack: ['React', 'Typescript', 'TailwindCss'] },
 ];

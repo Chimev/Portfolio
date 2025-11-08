@@ -50,6 +50,7 @@ import morphy from '../assets/morphy.png'
 import ms_luxury from '../assets/ms_luxury.png'
 import productDashboard from '../assets/product.png'
 import solex from '../assets/solex.png'
+import mft from  '../assets/mft.png'
 
 
 export default {
@@ -103,4 +104,5 @@ export default {
   ms_luxury,
   productDashboard,
   solex,
+  mft
 };

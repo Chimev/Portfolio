@@ -12,4 +12,5 @@ export const project = [
   { id: 9, title: 'tourmaline-puppy', description: 'An ecommerce website for Women', imgUrl: images.tourmaline, url: 'https://tourmaline-puppy-e69a50.netlify.app/', tags: ['Web App'], stack: ['React', 'Typescript', 'TailwindCss'] },
   { id: 10, title: 'Nexpixel', description: 'Tech company website for online presence and digital capabilities.', imgUrl: images.nexpixel, url: 'https://nexpixel-frontend.vercel.app/', tags: ['Website', 'Landing Page'], stack: ['Nextjs', 'TailwindCss'] },
   { id: 11, title: 'CDI', description: 'CDI Nation Website.', imgUrl: images.CDI, url: 'https://cdi-nation.vercel.app/', tags: ['Landing Page'], stack: ['React', 'Typescript', 'TailwindCss'] },
+  { id: 12, title: 'Tayuta weight loss', description: 'fitness app.', imgUrl: images.tayuta, url: 'https://apps.apple.com/ng/app/tayuta-weight-loss/id6751735236 ', tags: ['Mobile Apps'], stack: ['React Native', 'NativeWind', 'TypeScript, Firebase'] },
 ];
